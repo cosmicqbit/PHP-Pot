@@ -21,8 +21,47 @@
     $age = 24;
     $AGE = 'right';
 
-    echo "This $person is $age yrs old $AGE"
+    echo "This $person is $age yrs old $AGE<br>"
 
+    ?>
+
+    <?php
+    // Data Types
+    // String
+    // integer 
+    // Float 
+    // Boolean 
+    // Array 
+    // Object 
+    // NULL 
+    // Resource 
+
+    $test = 12;
+    $fill = 1.2;
+    $boolean = true;
+    var_dump($test);
+    echo "<br>";
+    var_dump($fill);
+    echo "<br>";
+    var_dump($boolean);
+    echo "<br>";
+
+    $cars = array("Volvo", "BMW", "Toyota");
+    var_dump($cars);
+    echo "$cars[0]";
+    echo "$cars[1]";
+    echo "<br>";
+    $name = NULL;
+    echo var_dump($name);
+
+    echo "<br>";
+    // String Functions 
+
+    // strlen() returns the length of a string
+
+    echo strlen("Wired");
+    echo "<br>";
+    echo strlen("This is a test message")
     ?>
 </body>
 </html>
