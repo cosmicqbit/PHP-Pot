@@ -82,3 +82,5 @@ echo "This is a forEach loop" . '<br>' . '<br>';
 foreach($subjects as $index => $sub) {
     echo $index . '-' . $sub . '<br>';
 }
+
+ls
